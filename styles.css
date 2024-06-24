@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    aspect-ratio: 1/1;
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    display: flex;
+}
+
+.win {
+    background-color: rgba(0,255,0,0.3);
+}

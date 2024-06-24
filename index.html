@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght200;300;400;500;600;700&display=swap">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="w-[100vw] h-[100vh] overflow-hidden bg-[url(images/gradient-bg.jpg)] bg-cover">
+    <main>
+        <p class="text-white absolute left-[50%] top-[3rem] -translate-x-[50%] rounded-[1rem] py-2 px-12 
+        border-2 border-solid border-[rgba(255,255,255,0.25)] bg-[rgba(255,255,255,0.15)]" 
+        >Current Player - X</p>
+
+        <div class="w-[90%] max-w-[20rem] grid grid-cols-3 grid-rows-3 rounded-[1rem] p-8 mx-auto 
+        aspect-square translate-y-[31vh] border-2 border-solid border-[rgba(255,255,255,0.25)] bg-[rgba(255,255,255,0.15)]">
+            <div class="box border-white border-r-2 border-solid border-b-2"></div>
+            <div class="box border-white border-r-2 border-solid border-b-2"></div>
+            <div class="box border-white border-solid border-b-2"></div>
+            <div class="box border-white border-r-2 border-solid border-b-2"></div>
+            <div class="box border-white border-r-2 border-solid border-b-2"></div>
+            <div class="box border-white border-solid border-b-2"></div>
+            <div class="box border-white border-r-2 border-solid"></div>
+            <div class="box border-white border-r-2 border-solid"></div>
+            <div class="box"></div>
+        </div>
+
+        <button class="text-white hidden absolute left-[50%] bottom-[3rem] -translate-x-[50%] rounded-[1rem] py-2 px-12 
+        border-2 border-solid border-[rgba(255,255,255,0.25)] bg-[rgba(255,255,255,0.15)]">New Game</button>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
